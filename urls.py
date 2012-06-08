@@ -6,7 +6,7 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'blamewheel.views.home', name='home'),
+    url(r'/?^$', 'blamewheel_app.views.home', name='home'),
     # url(r'^blamewheel/', include('blamewheel.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

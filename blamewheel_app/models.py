@@ -10,5 +10,5 @@ class BlameWheel(models.Model):
 class Blame(models.Model):
     blame_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=200)
-    color = models.CharField(max_length=6)
-    size = models.IntegerField()
+    #color = models.CharField(max_length=6)
+    weight = models.IntegerField()
